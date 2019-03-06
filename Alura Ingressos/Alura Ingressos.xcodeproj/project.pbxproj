@@ -14,6 +14,7 @@
 		C165811022289F16006CFBD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C165810E22289F16006CFBD5 /* LaunchScreen.storyboard */; };
 		C165811B22289F16006CFBD5 /* Alura_IngressosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165811A22289F16006CFBD5 /* Alura_IngressosTests.swift */; };
 		C165812622289F16006CFBD5 /* Alura_IngressosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165812522289F16006CFBD5 /* Alura_IngressosUITests.swift */; };
+		C1A21BF822301B2B007D34CB /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A21BF722301B2B007D34CB /* ValidaFormulario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C165812122289F16006CFBD5 /* Alura IngressosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alura IngressosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C165812522289F16006CFBD5 /* Alura_IngressosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alura_IngressosUITests.swift; sourceTree = "<group>"; };
 		C165812722289F16006CFBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A21BF722301B2B007D34CB /* ValidaFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C165810522289F13006CFBD5 /* AppDelegate.swift */,
-				C165810722289F13006CFBD5 /* ViewController.swift */,
+				C1A21BF622301A72007D34CB /* Controller */,
+				C1A21BF522301A59007D34CB /* Model */,
 				C165810922289F13006CFBD5 /* Main.storyboard */,
 				C165810C22289F16006CFBD5 /* Assets.xcassets */,
 				C165810E22289F16006CFBD5 /* LaunchScreen.storyboard */,
@@ -123,6 +126,22 @@
 				C165812722289F16006CFBD5 /* Info.plist */,
 			);
 			path = "Alura IngressosUITests";
+			sourceTree = "<group>";
+		};
+		C1A21BF522301A59007D34CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1A21BF722301B2B007D34CB /* ValidaFormulario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1A21BF622301A72007D34CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C165810722289F13006CFBD5 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C165810822289F13006CFBD5 /* ViewController.swift in Sources */,
+				C1A21BF822301B2B007D34CB /* ValidaFormulario.swift in Sources */,
 				C165810622289F13006CFBD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
